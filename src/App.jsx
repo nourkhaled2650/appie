@@ -1,5 +1,16 @@
 import React from "react";
 
+import {
+  Navbar,
+  FirstSection,
+  SecondSection,
+  ThirdSection,
+  FourthSection,
+  FifthSection,
+  SixthSection,
+  Footer,
+} from "./components";
+
 const App = () => (
   <div>
     <Navbar></Navbar>
@@ -7,7 +18,7 @@ const App = () => (
     <SecondSection></SecondSection>
     <ThirdSection></ThirdSection>
     <FourthSection></FourthSection>
-    <FithSection></FithSection>
+    <FifthSection></FifthSection>
     <SixthSection></SixthSection>
     <Footer></Footer>
   </div>
