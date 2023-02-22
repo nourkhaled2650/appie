@@ -12,15 +12,17 @@ import {
 } from "./components";
 
 const App = () => (
-  <div>
-    <Navbar></Navbar>
-    <FirstSection></FirstSection>
-    <SecondSection></SecondSection>
-    <ThirdSection></ThirdSection>
-    <FourthSection></FourthSection>
-    <FifthSection></FifthSection>
-    <SixthSection></SixthSection>
-    <Footer></Footer>
+  <div className=" flex justify-center">
+    <div className=" w-full lg:max-w-[80%] flex flex-col  ">
+      <Navbar></Navbar>
+      <FirstSection></FirstSection>
+      <SecondSection></SecondSection>
+      <ThirdSection></ThirdSection>
+      <FourthSection></FourthSection>
+      <FifthSection></FifthSection>
+      <SixthSection></SixthSection>
+      <Footer></Footer>
+    </div>
   </div>
 );
 

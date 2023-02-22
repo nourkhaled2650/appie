@@ -6,7 +6,8 @@ module.exports = {
       colors: {
         primary: "#eef1f6",
         secondary: "#0e1133",
-        buttons: "#ff4466",
+        button: "#ff4466",
+        hoveredbtn: "#F797AE",
         footer: "#ececef",
       },
     },

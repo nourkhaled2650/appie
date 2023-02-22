@@ -10,6 +10,8 @@ import hero from "./project-images/hero.png";
 import logo from "./project-images/logo.png";
 import video_slide from "./project-images/video-slide-1.jpg";
 import video_thumb from "./project-images/video-thumb-1.jpg";
+import close from "./project-images/close1.png";
+import menu from "./project-images/menu1.png";
 
 import sponser_1 from "./sponsers/sponser-1.png";
 import sponser_2 from "./sponsers/sponser-2.png";
@@ -42,4 +44,6 @@ export {
   sponser_7,
   sponser_8,
   sponser_9,
+  close,
+  menu,
 };
