@@ -13,6 +13,15 @@ import video_thumb from "./project-images/video-thumb-1.jpg";
 import close from "./project-images/close1.png";
 import menu from "./project-images/menu1.png";
 
+import arrow from "./icons/right-arrow.png";
+import bell from "./icons/bell.png";
+import email from "./icons/email.png";
+import home from "./icons/home.png";
+import link from "./icons/link.png";
+import lock from "./icons/lock.png";
+import thunder from "./icons/thunder.png";
+import setting from "./icons/setting.png";
+
 import sponser_1 from "./sponsers/sponser-1.png";
 import sponser_2 from "./sponsers/sponser-2.png";
 import sponser_3 from "./sponsers/sponser-3.png";
@@ -46,4 +55,12 @@ export {
   sponser_9,
   close,
   menu,
+  email,
+  arrow,
+  bell,
+  link,
+  lock,
+  home,
+  thunder,
+  setting,
 };

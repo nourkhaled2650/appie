@@ -6,10 +6,10 @@ import styles from "../style";
 const Navbar = () => {
   const [toggle, settoggle] = useState(false);
   return (
-    <nav className=" flex items-center px-12 lg:px-30 xl:px-36 py-7 bg-primary text-sm md:text-base lg:text-lg  ">
+    <nav className=" flex items-center px-5 lg:px-10 xl:px-15 py-7 bg-primary text-[12px] md:text-base lg:text-lg  ">
       <img src={logo} alt="logo" className="" />
       <div className="flex w-full items-baseline pl-10 justify-between">
-        <ul className="hidden md:flex mr-8">
+        <ul className="hidden xs:flex mr-8">
           {navLinks.map((value, index) => (
             <>
               {index == 1 || index == 4 ? (
@@ -32,7 +32,7 @@ const Navbar = () => {
           ))}
         </ul>
         <div>
-          <div className="md:hidden flex">
+          <div className="sm:hidden flex">
             <img
               src={toggle ? close : menu}
               alt="menu"
@@ -43,11 +43,14 @@ const Navbar = () => {
           <div
             className={`${
               toggle ? "flex" : "hidden"
-            } p-6 bg-primary min-w-[140px] sidebar rounded-xl absolute top-[70px]`}
+            } sm:hidden p-6 bg-primary min-w-[140px] sidebar rounded-xl absolute  top-[70px] z-20`}
           >
             <ul className="flex mr-8 flex-col">
               {navLinks.map((value, index) => (
-                <li className="px-2 flex mb-[4px]" key={value.id}>
+                <li
+                  className="px-2 flex mb-[4px] hover:underline"
+                  key={value.id}
+                >
                   {value.title}
                 </li>
               ))}
