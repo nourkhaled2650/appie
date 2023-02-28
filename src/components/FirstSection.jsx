@@ -23,7 +23,7 @@ const FirstSection = () => (
         <br />
         Find the best applicaion in the appie.
       </div>
-      <div className="relative mt-8 flex w-[75%] sm:w-[60%] ">
+      <div className="cursor-pointer relative mt-8 flex w-[75%] sm:w-[60%] ">
         <div className="bg-button absolute  rounded-[30px] p-4 px-10 top-0 z-0">
           r
         </div>

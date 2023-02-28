@@ -8,6 +8,7 @@ module.exports = {
         secondary: "#0e1133",
         button: "#ff4466",
         hoveredbtn: "#F797AE",
+        hoveredbtn2: "#41467a",
         footer: "#ececef",
         icon1: "#30acfb",
         icon2: "#ea4d89",

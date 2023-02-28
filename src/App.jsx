@@ -13,15 +13,15 @@ import {
 
 const App = () => (
   <div className=" flex justify-center">
-    <div className=" w-full lg:max-w-[80%] flex flex-col  ">
+    <div className=" w-full lg:max-w-[95%] flex flex-col  ">
       <Navbar></Navbar>
       <FirstSection></FirstSection>
       <SecondSection></SecondSection>
-      <ThirdSection></ThirdSection>
-      <FourthSection></FourthSection>
+      {/*  <ThirdSection></ThirdSection>
+      <FourthSection></FourthSection> */}
       <FifthSection></FifthSection>
-      <SixthSection></SixthSection>
-      <Footer></Footer>
+      {/* <SixthSection></SixthSection>
+      <Footer></Footer> */}
     </div>
   </div>
 );

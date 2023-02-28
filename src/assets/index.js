@@ -21,6 +21,8 @@ import link from "./icons/link.png";
 import lock from "./icons/lock.png";
 import thunder from "./icons/thunder.png";
 import setting from "./icons/setting.png";
+import check from "./project-images/check.png";
+import check1 from "./project-images/check1.png";
 
 import sponser_1 from "./sponsers/sponser-1.png";
 import sponser_2 from "./sponsers/sponser-2.png";
@@ -63,4 +65,6 @@ export {
   home,
   thunder,
   setting,
+  check,
+  check1,
 };
